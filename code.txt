@@ -1,0 +1,82 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:narybekov/Book.git
+git push -u origin main
+
+
+
+git remote add origin git@github.com:narybekov/Book.git
+git branch -M main
+git push -u origin main
+
+
+
+-----------------------------
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:narybekov/PRACTICE.git
+git push -u origin main
+
+git remote add origin git@github.com:narybekov/PRACTICE.git
+git branch -M main
+git push -u origin main
+----------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+https://github.com/zhanybekovych/polaris-lesson-materials
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git remote add origin git@github.com:narybekov/HomeWorkPls.git
+
+padding: 10px 20px 10px 20px;
+Эти четыре значения работают как часы: сверху, справа, снизу, слева и дадут тот же результат, что и при использовании инструкций заполнения для конкретных сторон.
+
+<strong>
+<span> 
+<em>
+
+<ul> список/ группировка
+<li>
+
+<ol>
+
+<dl>
+<dt>
+<dd>
+
+<a href="#"><a>
+<a href="tel:#"><a>
+<a href="mailto:#"><a>
+
+<section>
+<section id>
+
+<img src="" alt="" width="#">
+
+<form action="">
+
+<label>
+<input type="text" name="">
+<input type="radio" name="username">
+<input type="chackbox" name="username">
+
+<input type="submit" value="send">
+
+
+select name="" id=""
+option value="option"
+
+
+<table> <table border="1">
+<thead>
+<tbody>
+<tr> <rd>
+<th>
+
+<article>
+<aside>
+<main>
+<div>

@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #004b88;
+  display: grid;
+  place-content: center;
+}
+
+.nav__checkbox {
+  display: none;
+}
+
+.nav__button {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+  transition: all .2s;
+}
+
+.nav__icon {
+  position: relative;
+}
+
+
+.nav__icon,
+.nav__icon::before,
+.nav__icon::after {
+  width: 50px;
+  height: 4px;
+  background: #006dc7;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.nav__icon::before,
+.nav__icon::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  transition: all .2s;
+}
+
+.nav__icon::before {
+  top: -10px;
+}
+
+.nav__icon::after {
+  top: 10px;
+}
+
+.nav__button:hover .nav__icon::before {
+  top: -12px;
+}
+
+.nav__button:hover .nav__icon::after{
+  top: 12px;
+}
+
+.nav__checkbox:checked + .nav__button .nav__icon  {
+  background: transparent;
+}
+
+.nav__checkbox:checked + .nav__button .nav__icon::before  {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+.nav__checkbox:checked + .nav__button .nav__icon::after  {
+  top: 0;
+  transform: rotate(-135deg);
+}
